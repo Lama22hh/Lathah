@@ -3,6 +3,5 @@ const router = express.Router();
 const mainController = require('../controllers/mainController');
 
 router.get('/homePage', mainController.homepage);
-router.get('/SearchPage', mainController.SearchPage);
 
 module.exports = router;

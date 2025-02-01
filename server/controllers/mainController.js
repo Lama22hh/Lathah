@@ -9,13 +9,3 @@ exports.homepage = async (req, res) => {
 }
 
 
-
-exports.SearchPage = async (req, res) => {
-  const locals = {
-    title: "لذه | البحث",
-  }
-  res.render('SearchPage', {
-    locals,
-    layout: '../views/layouts/front-page'
-  });
-}
